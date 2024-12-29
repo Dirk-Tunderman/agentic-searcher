@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Local data storage
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Chrome driver
+driver/
+
+# Config files with sensitive data
+config/local.yaml
